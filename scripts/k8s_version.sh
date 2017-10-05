@@ -26,7 +26,7 @@ for f in $FILES; do
            printf "\nAddons:\n"
 
            cd $OLDPWD
-           git clone http://github.com/rancher/kubernetes-package/ > /dev/null 2>&1
+           git clone http://github.com/steady1211/kubernetes-package/ > /dev/null 2>&1
            
            cd kubernetes-package
            git checkout $VERSION > /dev/null 2>&1 
